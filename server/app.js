@@ -7,7 +7,7 @@ const app = express();
 
 app.use('/graphql',qraphqlHTTP({
   //if names are different schema: name have to be followed
-  schema
+  //schema
 }));
 
 app.listen(4000,() =>{
